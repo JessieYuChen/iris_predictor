@@ -1,6 +1,5 @@
 import streamlit as st
 import joblib
-import matplotlib.pyplot as plt
 
 # 載入封裝好的model
 svm_clf = joblib.load("svm_clf_model.joblib")
